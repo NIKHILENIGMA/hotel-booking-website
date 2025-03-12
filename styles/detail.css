@@ -7,18 +7,44 @@
 html,body{
     width: 100%;
     height: 100vh;
-    padding: 2px;
+}
+
+header  {
+    width: 100%;
+    height: 10vh;
+    background-color:  rosybrown;
+}
+footer {
+    background-color:  rosybrown;
 }
 
 main {
     width: 100%;
     height: 100%;
+    background-color: #e0e0e0;
 }
-
 .hotel-img {
     width: 500px;
     height: 500px;
+    margin: 2% 4% 0 2%;
 }
+
+.booking-form {
+    margin: 0 4% 2% 2%;
+}
+
+.hotel-details {
+    margin: 2% 4% 0 2%;
+}
+
+.hotel-services {
+    margin: 2% 4% 0 2%;
+}
+
+.hotel-details .hotel-description {
+    margin: 2% 4% 0 2%;
+}
+
 
 footer .social-media {
     height: 20px;
