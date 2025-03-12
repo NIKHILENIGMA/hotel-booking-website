@@ -6,6 +6,27 @@
     <title>Login</title>
   </head>
   <body>
-    <div>LOGIN</div>
+    <div>
+      <form action="index.html" method="get">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          autocomplete="off"
+          required
+        /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          autocomplete="off"
+          required
+        /><br />
+        <button type="submit" onclick="submitForm()">Login</button>
+      </form>
+    </div>
+
   </body>
 </html>
